@@ -6,3 +6,8 @@
 
 # Пример работы программы
 ![Image alt](images/image.png)
+![Image alt](images/Screenshot_3.png)
+![Image alt](images/Screenshot_4.png)
+![Image alt](images/Screenshot_5.png)
+![Image alt](images/Screenshot_6.png)
+
