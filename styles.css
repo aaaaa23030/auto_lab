@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+}
+
+.setting {
+    width: 1280px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.k2cr2o7 {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+.h2o2 {
+    width: 250px;
+    height: auto;
+    cursor: pointer;
+}
+
+.container-reagents {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.timer {
+    width: 216px;
+    height: auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: #2c3e50;
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    width: 1280px;
+    height: 75px;
+    border: 2px solid #2c3e50;
+}
+
+.click-area {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.click-area-2 {
+    left: 400px;
+    height: 500px;
+}
+
+.click-area-5 {
+    height: 400px;
+    left: 550px;
+    width: 100px;
+    top: 165px;
+}
+
+.title-text-6 {
+    font-size: 21px;
+}
+
+
+.container-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-2 {
+    width: 216px;
+    height: auto;
+}
+
+.table-title-1 {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+table {
+    width: 85%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убирает двойные границы между ячейками */
+    margin: 0px auto; /* Центрирует таблицу */
+}
+th, td {
+    border: 1px solid #333; /* Граница ячеек */
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: center; /* Выравнивание текста по правому краю */
+}
+th {
+    background-color: #f2f2f2; /* Цвет фона заголовков */
+}

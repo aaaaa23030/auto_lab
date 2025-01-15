@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
+    height: 720px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: start;
+    position: relative;
+    width: 1000px;
+}
+
+.lab-name {
+    font-size: 2.5em; /* Размер заголовка */
+    color: #2c3e50; /* Цвет заголовка */
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    width: 1000px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.button {
+    position: relative;
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid black; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none; /* Убираем подчеркивание ссылки */
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+    }
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.container-button {
+    display: flex;
+}
+
+.goal-text {
+    position: relative;
+    bottom: 20px;
+}
+
+.h2o2 {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+
+.catalizator-text {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+.small-text {
+    font-size: 20px;
+    position: relative;
+    bottom: 125px;
+    text-align: center;
+    width: auto;
+}
+
+.fraction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 50px; /* Длина линии */
+    height: 1px; /* Толщина линии */
+    background-color: #000; /* Цвет линии */
+    margin: 5px 0; /* Отступы сверху и снизу */
+}
+
+.expression {
+    display: flex;
+}
+
+.expression-text {
+    position: relative;
+    bottom: 25px;
+    right: 10px;
+    width: auto;
+}
+
+.expression-text-lg {
+    width: auto;
+    position: relative;
+    bottom: 25px;
+    left: 5px;
+    margin-right: 10px;
+}
+
+.text-or {
+    width: auto;
+    position: relative;
+    bottom: 50px;
+}
+
+.expression-img {
+    position: relative;
+    bottom: 75px;
+    width: 250px;
+}
+
+.text-theory-3-4 {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    font-size: 18px;
+    position: relative;
+    bottom: 40px;
+    text-align: start;
+}
+
+.numerator {
+    font-size: 25px;
+}
+
+.denominator {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;;
+}
+
+.fraction-3-4 {
+    position: relative;
+    bottom: 5px;
+}
+
+.container-text-theory-3-4 {
+    position: relative;
+    bottom: 40px;
+}
+
+.theory-small-text {
+    width: auto;
+    font-size: 18px;
+}
+
+.expression-image2 {
+    width: 500px;
+    margin-left: 250px;
+}
+
+.expression-image3 {
+    position: relative;
+    width: 500px;
+    bottom: 50px;
+}
+
+.expression-image4 {
+    width: 600px;
+}
+
+.expression-image-6 {
+    position: relative;
+    bottom: 40px;
+    margin-bottom: 0;
+    width: 240px;
+}
+
+.expression-image-7 {
+    width: 400px;
+}
+
+.text-equipment {
+    text-align: center;
+}
+
+.theory-text-4-9 {
+    font-size: 20px;
+}
+
+.theory-text-11 {
+    margin: 5px;
+    font-size: 22px;
+    text-align: start;
+}
+
+.expression-image-9 {
+    width: 400px;
+}
+
+table {
+    width: 85%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убирает двойные границы между ячейками */
+    margin: 0px auto; /* Центрирует таблицу */
+}
+th, td {
+    border: 1px solid #333; /* Граница ячеек */
+    padding: 10px; /* Отступы внутри ячеек */
+    text-align: center; /* Выравнивание текста по правому краю */
+}
+th {
+    background-color: #f2f2f2; /* Цвет фона заголовков */
+}
+
+.table-desc {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.expression_image12 {
+    width: 1000px;
+    height: auto;
+}
